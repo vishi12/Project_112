@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <title>Case Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="col-xs-12 header_div">
+      <h2>Case Study 
+      </h2>
+    </div>
+
+    <center>
+    <ol>
+      <div class="text_images_and_result">
+          <li>
+              <b>Test Image - </b><div id="image_border"><img src="water_bottle.jpg" class="img-responsive"></div>
+          </li>
+          <h5>Output on <b>Microsoft Azure </b>-
+            <span>Empty bottle on a table</span>
+        </h5>
+        <h5>Output on <b>Mobilenet Model </b>-
+            <span>Water bottle</span>
+        </h5>
+
+        <div class="result">
+            <h4>Result - Mobilenet is more accurate</h4>
+        </div>
+
+        <div id="info">
+          I have tested 4 images<br>
+          Mobilenet have predicted all 4 of them correctly, while Microsoft Azure had trouble predicted them correctly and didn't predict a single one.<br>
+          So, based on my case study Mobilenet is more accurate.
+        </div>
+
+      </div>
+
+    </center>
+
+    <div class="copy_right_footer">Developed by Vishruth Nadikattu</div>
+
+</ol>
+
+<script src="main.js"></script>
+  </body>
+</html>
